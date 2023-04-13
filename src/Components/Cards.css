@@ -1,0 +1,48 @@
+.pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 1rem;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.icon {
+  font-size: 50px;
+  color: white;
+}
+.trip-container {
+  max-width: 1140px;
+  margin: auto;
+
+  padding: 1rem;
+}
+
+.trip-container .trip {
+  border: 3px solid rgba(0, 25, 25, 1);
+  color: white;
+  border-radius: 20px;
+}
+
+.trip {
+  text-align: center;
+  padding: 1rem;
+}
+.trip:hover {
+  background-color: rgba(0, 25, 25, 0.4);
+}
+
+.trip h3 {
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+.trip p {
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.trip .btn {
+  display: block;
+  width: 80%;
+  margin: 2rem auto;
+}
